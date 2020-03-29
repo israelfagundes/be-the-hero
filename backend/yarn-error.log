@@ -1,0 +1,46 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files\Yarn\bin\yarn.js add celebrate
+
+PATH: 
+  C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python27\;C:\Python27\Scripts;C:\MinGW\bin;C:\Users\RENATA\AppData\Local\Programs\Python\Python38-32\Scripts;C:\Users\RENATA\AppData\Local\Programs\Python\Python38-32;C:\Users\RENATA\AppData\Roaming\Python\Python38\Scripts;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\RENATA\AppData\Local\Microsoft\WindowsApps;C:\adb;C:\Program Files\Microsoft VS Code\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Yarn\bin\;C:\Users\RENATA\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\RENATA\AppData\Local\Programs\Python\Python38-32\;C:\Users\RENATA\AppData\Local\Microsoft\WindowsApps;;C:\Users\RENATA\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\RENATA\AppData\Roaming\npm;C:\Users\RENATA\AppData\Local\Yarn\bin
+
+Yarn version: 
+  1.22.0
+
+Node version: 
+  12.16.1
+
+Platform: 
+  win32 ia32
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\RENATA\Documents\semana-omnistack-11\backend\node_modules\sqlite3\lib\binding\node-v72-win32-ia32\node_sqlite3.node'
+
+npm manifest: 
+  {
+    "name": "backend",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "nodemon src/index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "cors": "^2.8.5",
+      "express": "^4.17.1",
+      "knex": "^0.20.13",
+      "sqlite3": "^4.1.1"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
