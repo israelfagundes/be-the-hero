@@ -28,10 +28,11 @@ export default function Register() {
 
         try {
             const response = await api.post('ongs', data);
-
+            
             alert(`Seu ID de acesso: ${response.data.id}`);
 
             history.push('/');
+            
         } catch (err) {
             alert('Erro no cadastro, tente novamente');
         }
@@ -50,30 +51,35 @@ export default function Register() {
                     </Link>
                 </section>
                 <form onSubmit={handleRegister}>
-                    <input 
+                    <input
+                    required
                     placeholder="Nome da ONG"
                     value={name}
                     onChange={e => setName(e.target.value)}
                     />
                     <input
+                    required
                     type="email"
                     placeholder="E-mail"
                     value={email}
                     onChange={e => setEmail(e.target.value)}
                     />
-                    <input 
+                    <input
+                    required
                     placeholder="WhatsApp" 
                     value={whatsapp}
                     onChange={e => setWhatsapp(e.target.value)}
                     />
 
                     <div className="input-group">
-                        <input 
+                        <input
+                        required
                         placeholder="Cidade" 
                         value={city}
                         onChange={e => setCity(e.target.value)}
                         />
-                        <input 
+                        <input
+                        required
                         placeholder="UF" 
                         style={{ width: 80 }} 
                         value={uf}

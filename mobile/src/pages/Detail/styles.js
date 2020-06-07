@@ -5,7 +5,7 @@ export default StyleSheet.create({
     container: {
         flex: 1,
         paddingHorizontal: 24,
-        paddingTop: Platform.OS === 'ios' ? Constants.statusBarHeight + 20 : 30,
+        paddingTop: 60,
     },
 
     header: {
