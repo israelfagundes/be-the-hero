@@ -6,7 +6,7 @@
 Be The Hero
 </h1>
 
-<p align="center">Seu marketplace de coleta de resíduos</p>
+<p align="center">Encontre ONGs necessitando de ajuda, escolha um caso e salve o dia!</p>
 
 <p align="center">
   <a href="https://opensource.org/licenses/MIT">
